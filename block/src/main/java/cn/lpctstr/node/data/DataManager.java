@@ -22,10 +22,10 @@ public enum DataManager{
 
 
     public static void digest(Object o){
-        if(o instanceof Stud_Info){
+        if(o instanceof Stud_Info)
             INSTANCE.blockChain.add(new BlockNodeWrapper((Stud_Info) o));
-        }else if(o instanceof BlockNodeWrapper)
-            INSTANCE.blockChain.add((BlockNodeWrapper) o);
+//        }else if(o instanceof BlockNodeWrapper)
+//            INSTANCE.blockChain.add((BlockNodeWrapper) o);
     }
 
 

@@ -13,6 +13,10 @@ import java.util.List;
  */
 public class Stud_Info extends AbstractDataInfo {
     private String name;
+    private String id;
+
+
+    private List<Course> courseList;
 
     public String getName() {
         return name;
@@ -30,8 +34,6 @@ public class Stud_Info extends AbstractDataInfo {
         this.id = id;
     }
 
-    private String id;
-    private List<Course> courseList;
 
     public Stud_Info(String name, String id) {
         this.name = name;
@@ -43,7 +45,7 @@ public class Stud_Info extends AbstractDataInfo {
         return courseList;
     }
 
-    public String getCourseAbstract(){
+    public String getCourseAbstract() {
         StringBuilder tmp = new StringBuilder();
         for (Course course : courseList)
             tmp.append(course.getHash());

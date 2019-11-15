@@ -9,4 +9,5 @@ import java.io.Serializable;
  * @Project: ZJSRTP
  */
 public class AbstractDataInfo implements Serializable {
+
 }

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Author:LPCTSTR_MSR
- * @Description: Null
+ * @Description: The containers of network commands.The basic form of the transfer command.
  * @Date: 21:03 2019/7/14
  * @Project: netModule
  */

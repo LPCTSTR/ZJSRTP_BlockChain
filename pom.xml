@@ -42,7 +42,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <!--指定main方法-->
+                                     <!--指定main方法-->
                                     <mainClass>node.global.Global</mainClass>
                                 </transformer>
                             </transformers>
